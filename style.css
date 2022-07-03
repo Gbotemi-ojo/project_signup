@@ -27,7 +27,6 @@ body{
     width: 65vw;
 }
 .formText{
-    height: 15vh;
     width: 40vw;
     font-size: 18px;
     font-weight: 800;
@@ -37,11 +36,14 @@ body{
     font-size: 21px;
     font-weight: 700;
     margin-left: 4vw;
+    margin-top: 2vh;
 }
 .formContainer{
     margin-top:8vh;
     display: flex;
     background: white;
+    height: 40vh;
+    box-shadow: 0px 1px 0px rgb(128, 128, 128,0.5);
 }
 .formContainer .form{
     margin-left: 4vw;
@@ -68,7 +70,7 @@ border: 1px solid #E5E7EB;
   font-size: 60px;
 }
 .pageLogo img{
-    width: 9vw;
+    width: 6vw;
 }
 .submitBtn{
     margin-top: 4vh;
@@ -89,8 +91,17 @@ border: 1px solid #E5E7EB;
 .logoContainer{
     background-color: rgba(0,0,0,0.5);
     width: 35vw;
+    margin-bottom: 25vh;
 }
 a{
     color: #596D48;
     text-decoration: none;
+}
+.errorPassword{
+    display: block;
+    color: red;
+    font-size: 15px;
+}
+.wrapper label{
+    display: block;
 }

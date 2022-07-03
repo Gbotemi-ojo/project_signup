@@ -26,41 +26,30 @@
                   <form action="" method="post">
                       <div class = "formHeader">Let's do this!</div>
                       <div class = "form">
-                        <div>
+                        <div class = "wrapper">
                             <label for ="firstName">FIRST NAME</label>
-                            <div>
-                              <input type="text" name="first-name" id="firstName" placeholder="Thor">
-                            </div>
+                            <input type="text" name="first-name" id="firstName" placeholder="Thor">
                           </div>
-                          <div>
-                              <label for ="lastName">LAST NAME</label>
-                              <div>
+                          <div class = "wrapper">
+                              <label for ="lastName">LAST NAME</label>     
                                 <input type="text" name="last-name" id="lastName" placeholder="Odinson">
-                              </div>
                           </div>
-                          <div>
+                          <div class = "wrapper">
                               <label for ="mail">EMAIL</label>
-                              <div>
-                                <input type="email" name="e-mail" id="mail">
-                              </div>
+                              <input type="email" name="e-mail" id="mail">
                           </div>
-                            <div>
+                          <div class = "wrapper">
                               <label for ="phone">PHONE NUMBER</label>
-                              <div>
                                 <input type="tel" name="Phone-number" id="phone">
-                              </div>
                             </div>
-                            <div>
+                            <div class = "wrapper">
                               <label for ="password">PASSWORD</label>
-                              <div>
                                 <input type="password" name="pasword" id="password">
-                              </div>
+                                <span class = "errorPassword"></span>
                             </div>
-                            <div>
+                            <div class = "wrapper">
                               <label for ="confirmPassword">CONFIRM PASSWORD</label>
-                              <div>
                                 <input type="password" name="confirm-password" id="confirmPassword">
-                              </div>
                             </div> 
                       </div>
                   </form>
@@ -71,6 +60,7 @@
               </div>
           </div>
       </div>
-  </div>  
+  </div> 
+  <script src="script.js"></script> 
 </body>
 </html>
